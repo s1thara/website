@@ -1,0 +1,1 @@
+const cursor=document.querySelector('.cursor');document.addEventListener('pointermove',e=>{if(cursor){cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px'}});document.querySelectorAll('a').forEach(a=>{a.addEventListener('mouseenter',()=>cursor?.classList.add('on'));a.addEventListener('mouseleave',()=>cursor?.classList.remove('on'))});
