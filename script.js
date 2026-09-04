@@ -1,5 +1,8 @@
 const cursor=document.querySelector('.cursor');
-if(cursor){document.addEventListener('pointermove',e=>{cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px'});document.querySelectorAll('a,.line-link,.hero-stamp').forEach(a=>{a.addEventListener('mouseenter',()=>cursor.classList.add('on'));a.addEventListener('mouseleave',()=>cursor.classList.remove('on'))})}
+if(cursor){document.addEventListener('pointermove',e=>{cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px'});document.querySelectorAll('a,button,.stamp,.line-link,.tilt').forEach(el=>{el.addEventListener('mouseenter',()=>cursor.classList.add('on'));el.addEventListener('mouseleave',()=>cursor.classList.remove('on'))})}
+const progress=document.querySelector('.progress');
+const updateProgress=()=>{if(progress){const h=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(h>0?(window.scrollY/h)*100:0)+'%'}};
+window.addEventListener('scroll',updateProgress,{passive:true});updateProgress();
 const revealObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target)}})},{threshold:.12});
-document.querySelectorAll('.section,.numbers,.manifesto,.experience-layout').forEach(el=>{el.classList.add('scroll-reveal');revealObserver.observe(el)});
-document.querySelectorAll('.hero-stamp').forEach(el=>{el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();const x=(e.clientX-r.left-r.width/2)/8;const y=(e.clientY-r.top-r.height/2)/8;el.style.transform=`translate(${x}px,${y}px) rotate(-8deg) scale(1.04)`});el.addEventListener('pointerleave',()=>el.style.transform='')});
+document.querySelectorAll('.section,.numbers,.manifesto,.experience-layout,.image-break,.dark-card').forEach(el=>{el.classList.add('scroll-reveal');revealObserver.observe(el)});
+document.querySelectorAll('.tilt').forEach(el=>{el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();const x=(e.clientX-r.left-r.width/2)/18;const y=(e.clientY-r.top-r.height/2)/18;el.style.transform=`perspective(700px) rotateY(${x}deg) rotateX(${-y}deg)`});el.addEventListener('pointerleave',()=>el.style.transform='')});
