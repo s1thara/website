@@ -1,9 +1,42 @@
-{"companies":[{"name":"Reliance Industries","symbol":"RELIANCE.NS"},{"name":"Tata Consultancy Services","symbol":"TCS.NS"},{"name":"HDFC Bank","symbol":"HDFCBANK.NS"},{"name":"Bharti Airtel","symbol":"BHARTIARTL.NS"},{"name":"ICICI Bank","symbol":"ICICIBANK.NS"}],"articles":[{"slug":"reliance-industries","company":"Reliance Industries","symbol":"RELIANCE.NS","edition":"DAILY DOSSIER 01","date":"2026-09-05","deck":"From a textile trading business to one of India's most diversified corporate groups — the Reliance story is a study in scale, capital allocation and strategic reinvention.","price":1322,"priceDate":"04 Sep 2026","heroImage":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg","keyFacts":[{"label":"FOUNDED","value":"1966"},{"label":"FOUNDER","value":"Dhirubhai Ambani"},{"label":"HQ","value":"Mumbai, India"},{"label":"CORE AREAS","value":"Energy · Retail · Digital · New Energy"}],"sections":[{"heading":"THE BEGINNING","body":"Reliance began in the 1960s as a small trading operation associated with textiles and synthetic yarn. Dhirubhai Ambani built the business around aggressive scale, access to capital and a willingness to integrate more stages of the value chain.
-
-The company expanded from textiles into petrochemicals and refining, eventually building an unusually integrated energy and materials business."},{"heading":"THE TRANSFORMATION","body":"After Dhirubhai Ambani's death, Reliance's businesses were reorganised between the Ambani brothers. Under Mukesh Ambani, Reliance Industries moved beyond its traditional energy base and invested heavily in telecommunications, digital services and organised retail.
-
-Jio launched commercially in 2016 and changed India's telecom economics by pushing data usage and prices into a new era. Reliance Retail simultaneously built a large consumer distribution platform."},{"heading":"HOW THE BUSINESS WORKS","body":"Reliance is not a single-industry company. Its economic engine spans oil-to-chemicals, fuel and refining, digital connectivity through Jio, retail, media and newer investments in renewable and new-energy infrastructure.
-
-That diversification matters for investors because different businesses have different growth rates, capital needs and valuation frameworks."},{"heading":"THE STOCK","body":"Reliance Industries is listed in India under the symbol RELIANCE. Its share price moves with a mixture of refining and petrochemical cycles, domestic consumption, Jio growth, retail performance, capital expenditure and expectations around new businesses.
-
-The chart below is designed as a live market companion rather than a static number."}],"images":[{"url":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg","alt":"Reliance Industries logo","caption":"Reliance Industries"}],"sources":[{"label":"Reliance Industries","url":"https://www.ril.com/"},{"label":"Wikipedia","url":"https://en.wikipedia.org/wiki/Reliance_Industries"},{"label":"NSE India","url":"https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE"}]}]}
+{
+  "companies": [
+    {"name": "Reliance Industries", "symbol": "RELIANCE.NS"},
+    {"name": "Tata Consultancy Services", "symbol": "TCS.NS"},
+    {"name": "HDFC Bank", "symbol": "HDFCBANK.NS"},
+    {"name": "Bharti Airtel", "symbol": "BHARTIARTL.NS"},
+    {"name": "ICICI Bank", "symbol": "ICICIBANK.NS"}
+  ],
+  "articles": [
+    {
+      "slug": "reliance-industries",
+      "company": "Reliance Industries",
+      "symbol": "RELIANCE.NS",
+      "edition": "DAILY DOSSIER 01",
+      "date": "2026-09-05",
+      "deck": "From a textile trading business to one of India's most diversified corporate groups — the Reliance story is a study in scale, capital allocation and strategic reinvention.",
+      "price": 1322,
+      "priceDate": "04 Sep 2026",
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg",
+      "keyFacts": [
+        {"label": "FOUNDED", "value": "1966"},
+        {"label": "FOUNDER", "value": "Dhirubhai Ambani"},
+        {"label": "HQ", "value": "Mumbai, India"},
+        {"label": "CORE AREAS", "value": "Energy · Retail · Digital · New Energy"}
+      ],
+      "sections": [
+        {"heading": "THE BEGINNING", "body": "Reliance began in the 1960s as a small trading operation associated with textiles and synthetic yarn. Dhirubhai Ambani built the business around aggressive scale, access to capital and a willingness to integrate more stages of the value chain.\n\nThe company expanded from textiles into petrochemicals and refining, eventually building an unusually integrated energy and materials business."},
+        {"heading": "THE TRANSFORMATION", "body": "After Dhirubhai Ambani's death, Reliance's businesses were reorganised between the Ambani brothers. Under Mukesh Ambani, Reliance Industries moved beyond its traditional energy base and invested heavily in telecommunications, digital services and organised retail.\n\nJio launched commercially in 2016 and changed India's telecom economics by pushing data usage and prices into a new era. Reliance Retail simultaneously built a large consumer distribution platform."},
+        {"heading": "HOW THE BUSINESS WORKS", "body": "Reliance is not a single-industry company. Its economic engine spans oil-to-chemicals, fuel and refining, digital connectivity through Jio, retail, media and newer investments in renewable and new-energy infrastructure.\n\nThat diversification matters for investors because different businesses have different growth rates, capital needs and valuation frameworks."},
+        {"heading": "THE STOCK", "body": "Reliance Industries is listed in India under the symbol RELIANCE. Its share price moves with a mixture of refining and petrochemical cycles, domestic consumption, Jio growth, retail performance, capital expenditure and expectations around new businesses.\n\nThe chart below is designed as a live market companion rather than a static number."}
+      ],
+      "images": [
+        {"url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg", "alt": "Reliance Industries logo", "caption": "Reliance Industries"}
+      ],
+      "sources": [
+        {"label": "Reliance Industries", "url": "https://www.ril.com/"},
+        {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Reliance_Industries"},
+        {"label": "NSE India", "url": "https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE"}
+      ]
+    }
+  ]
+}
