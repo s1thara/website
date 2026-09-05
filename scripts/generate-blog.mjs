@@ -21,6 +21,41 @@ async function getJson(url, options={}) {
   return r.json();
 }
 
+// Gemini normally returns valid JSON, but occasionally emits literal newlines,
+// tabs, or carriage returns inside JSON strings. Escape those control characters
+// without changing structural JSON whitespace.
+function repairJsonControlCharacters(text) {
+  let out = '';
+  let inString = false;
+  let escaped = false;
+  for (const ch of text) {
+    if (escaped) {
+      out += ch;
+      escaped = false;
+      continue;
+    }
+    if (ch === '\\') {
+      out += ch;
+      if (inString) escaped = true;
+      continue;
+    }
+    if (ch === '"') {
+      out += ch;
+      inString = !inString;
+      continue;
+    }
+    if (inString) {
+      if (ch === '\n') out += '\\n';
+      else if (ch === '\r') out += '\\r';
+      else if (ch === '\t') out += '\\t';
+      else out += ch;
+    } else {
+      out += ch;
+    }
+  }
+  return out;
+}
+
 const wiki = await getJson(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(company.wiki)}`);
 const market = await getJson(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(company.symbol)}?range=1y&interval=1d&events=history`);
 const result = market.chart?.result?.[0];
@@ -43,12 +78,12 @@ Use the supplied Wikipedia summary only as background and do not invent facts. E
 
 IMPORTANT: Do not invent current revenue, profit, market-cap, valuation, targets, analyst ratings or other numerical financial figures. The only current market number supplied is the live-ish price below. Discuss financial concepts qualitatively unless the source text provides a number.
 
-Return ONLY valid JSON with exactly these keys:
+Return ONLY valid JSON with exactly these keys. For paragraph breaks inside the body strings, use the two-character escape sequence \\n rather than literal line breaks inside a JSON string:
 {
   "deck": "2 sentence hook",
   "keyFacts": [{"label":"FOUNDED","value":"..."},{"label":"FOUNDER","value":"..."},{"label":"HQ","value":"..."},{"label":"CORE AREAS","value":"..."}],
   "sections": [
-    {"heading":"THE BEGINNING","body":"2-4 paragraphs separated by blank lines"},
+    {"heading":"THE BEGINNING","body":"2-4 paragraphs separated by \\n\\n"},
     {"heading":"THE TRANSFORMATION","body":"2-4 paragraphs"},
     {"heading":"HOW THE BUSINESS WORKS","body":"2-4 paragraphs"},
     {"heading":"WHAT MOVES THE STOCK","body":"2-4 paragraphs"},
@@ -70,7 +105,17 @@ const ai = await getJson('https://generativelanguage.googleapis.com/v1beta/model
 });
 const raw = ai.candidates?.[0]?.content?.parts?.map(p=>p.text||'').join('') || '';
 const clean = raw.replace(/^```json\s*/i,'').replace(/```$/,'').trim();
-const article = JSON.parse(clean);
+let article;
+try {
+  article = JSON.parse(clean);
+} catch (firstError) {
+  try {
+    article = JSON.parse(repairJsonControlCharacters(clean));
+  } catch (secondError) {
+    console.error('Gemini returned invalid JSON:', clean.slice(0, 5000));
+    throw secondError;
+  }
+}
 
 const finalArticle = {
   slug: company.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),
