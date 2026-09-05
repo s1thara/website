@@ -15,15 +15,25 @@ const previousDates = data.articles.map(a=>a.date).filter(Boolean).sort().revers
 const nextIndex = previousDates.length % companies.length;
 const company = companies[nextIndex];
 
-async function getJson(url, options={}) {
-  const r = await fetch(url, {headers:{'User-Agent':'sithara-portfolio-blog/1.0'}, ...options});
-  if (!r.ok) throw new Error(`${r.status} ${url}`);
-  return r.json();
+async function getJson(url, options={}, retries=3) {
+  let lastError;
+  for (let attempt=0; attempt<=retries; attempt++) {
+    try {
+      const r = await fetch(url, {headers:{'User-Agent':'sithara-portfolio-blog/1.0'}, ...options});
+      if (r.ok) return r.json();
+      const body = await r.text();
+      lastError = new Error(`${r.status} ${url}${body ? ` — ${body.slice(0,300)}` : ''}`);
+      if (![429,500,502,503,504].includes(r.status) || attempt === retries) throw lastError;
+    } catch (error) {
+      lastError = error;
+      if (attempt === retries) throw error;
+    }
+    await new Promise(resolve => setTimeout(resolve, 2000 * (attempt + 1)));
+  }
+  throw lastError;
 }
 
-// Gemini normally returns valid JSON, but occasionally emits literal newlines,
-// tabs, or carriage returns inside JSON strings. Escape those control characters
-// without changing structural JSON whitespace.
+// Gemini occasionally emits literal control characters inside JSON strings.
 function repairJsonControlCharacters(text) {
   let out = '';
   let inString = false;
@@ -98,7 +108,7 @@ Current price snapshot: ${price ?? 'unavailable'} INR
 Approx 1-year change from supplied daily data: ${change1y == null ? 'unavailable' : change1y.toFixed(2)+'%'}
 `;
 
-const ai = await getJson('https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent', {
+const ai = await getJson('https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent', {
   method:'POST',
   headers:{'Content-Type':'application/json','x-goog-api-key':process.env.GEMINI_API_KEY},
   body:JSON.stringify({contents:[{parts:[{text:prompt}]}],generationConfig:{responseMimeType:'application/json',temperature:0.35}})
