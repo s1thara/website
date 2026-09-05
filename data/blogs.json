@@ -1,161 +1,38 @@
 {
   "companies": [
-    {
-      "name": "Reliance Industries",
-      "symbol": "RELIANCE.NS"
-    },
-    {
-      "name": "Tata Consultancy Services",
-      "symbol": "TCS.NS"
-    },
-    {
-      "name": "HDFC Bank",
-      "symbol": "HDFCBANK.NS"
-    },
-    {
-      "name": "Bharti Airtel",
-      "symbol": "BHARTIARTL.NS"
-    },
-    {
-      "name": "ICICI Bank",
-      "symbol": "ICICIBANK.NS"
-    }
+    {"name":"Reliance Industries","symbol":"RELIANCE.NS"},
+    {"name":"Tata Consultancy Services","symbol":"TCS.NS"},
+    {"name":"HDFC Bank","symbol":"HDFCBANK.NS"},
+    {"name":"Bharti Airtel","symbol":"BHARTIARTL.NS"},
+    {"name":"ICICI Bank","symbol":"ICICIBANK.NS"}
   ],
   "articles": [
     {
-      "slug": "tata-consultancy-services",
-      "company": "Tata Consultancy Services",
-      "symbol": "TCS.NS",
-      "edition": "DAILY DOSSIER 02",
-      "date": "2026-09-05",
-      "deck": "As the crown jewel of the Tata Group, Tata Consultancy Services represents the bedrock of India's global IT services export engine. With operations spanning dozens of countries, the enterprise serves as both a bellwether for corporate technology spending and the chief financial engine of its parent conglomerate.",
-      "price": 2304,
-      "priceDate": "2026-09-05",
-      "oneYearChange": -25.574182371007165,
-      "heroImage": "",
-      "images": [],
-      "keyFacts": [
-        {
-          "label": "FOUNDED",
-          "value": "1968"
-        },
-        {
-          "label": "FOUNDER",
-          "value": "Tata Sons (Tata Group)"
-        },
-        {
-          "label": "HQ",
-          "value": "Mumbai, India"
-        },
-        {
-          "label": "CORE AREAS",
-          "value": "IT Services, Consulting & Digital Solutions"
-        }
+      "slug":"tata-consultancy-services","company":"Tata Consultancy Services","symbol":"TCS.NS","edition":"DAILY DOSSIER 02","date":"2026-09-05",
+      "deck":"As the crown jewel of the Tata Group, Tata Consultancy Services represents the bedrock of India's global IT services export engine. With operations spanning dozens of countries, the enterprise serves as both a bellwether for corporate technology spending and the chief financial engine of its parent conglomerate.",
+      "price":2304,"priceDate":"2026-09-05","oneYearChange":-25.574182371007165,
+      "heroImage":"https://commons.wikimedia.org/wiki/Special:Redirect/file/TATA%20Consultancy%20Services%20Logo%20blue.svg","heroImageType":"logo",
+      "images":[{"url":"https://commons.wikimedia.org/wiki/Special:Redirect/file/TATA%20Consultancy%20Services%20Logo%20blue.svg","alt":"Tata Consultancy Services logo","caption":"Tata Consultancy Services"}],
+      "keyFacts":[
+        {"label":"FOUNDED","value":"1968"},{"label":"FOUNDER","value":"Tata Sons (Tata Group)"},{"label":"HQ","value":"Mumbai, India"},{"label":"CORE AREAS","value":"IT Services, Consulting & Digital Solutions"}
       ],
-      "sections": [
-        {
-          "heading": "THE BEGINNING",
-          "body": "Tata Consultancy Services began its journey as a division of Tata Sons, created to provide management and technology consulting services to domestic sister companies. In an era when enterprise computing was still in its infancy in India, the organisation took on early electronic data processing and operational automation tasks, laying the initial groundwork for software engineering as a dedicated commercial discipline.\n\nRecognising that software and systems integration possessed vast export potential, the firm steadily turned its focus overseas. By securing technical contracts in Western markets, TCS helped pioneer the model of engineering enterprise solutions from Indian shores, navigating the technical transition from early mainframe systems to modern client-server architectures."
-        },
-        {
-          "heading": "THE TRANSFORMATION",
-          "body": "Over the subsequent decades, TCS transformed from an internal technical unit into an expansive multinational organisation. The company refined the Global Delivery Model, demonstrating that mission-critical technology projects could be executed across distributed global hubs without compromising delivery schedules or engineering quality.\n\nThis delivery scale transformed TCS into the premier revenue and cash generator for the entire Tata Group. Operating across 150 locations in 46 countries, the company became deeply embedded in the operations of major global enterprises, cementing its status as an indispensable partner for multinational corporate IT departments."
-        },
-        {
-          "heading": "HOW THE BUSINESS WORKS",
-          "body": "TCS operates primarily through information technology services, business consulting, and enterprise outsourcing. Its portfolio encompasses custom application development, cloud migration, enterprise resource planning, infrastructure support, and cognitive business operations. Rather than relying on singular off-the-shelf software sales, the business runs predominantly on multi-year service contracts and digital transformation programs.\n\nThe commercial model thrives on long-term client relationships and master service agreements. By embedding engineering teams into client workflows across sectors such as banking, financial services, healthcare, and retail, TCS generates durable recurring revenue, capturing follow-on contracts as enterprises upgrade legacy systems to modern digital architectures."
-        },
-        {
-          "heading": "WHAT MOVES THE STOCK",
-          "body": "From an equity valuation perspective, TCS is governed heavily by corporate discretionary IT expenditure across North America and Europe. When global macroeconomic conditions soften, enterprise clients often delay non-essential digital initiatives or renegotiate contract pricing, which directly influences billing rates, deal pipeline conversions, and top-line expansion.\n\nOperational metrics—such as employee utilisation rates, staff retention, and margin management amidst wage cycles—play a central role in market sentiment. Currency dynamics also remain a permanent factor, as revenue earned in foreign currencies converts into domestic operating costs. With the share price trading around 2304 INR and experiencing an approximate 1-year contraction of 25.57%, the market reflects cautious enterprise spending cycles and broader tech-sector moderation, balanced against the company's defensive cash-generating capabilities."
-        },
-        {
-          "heading": "WHY IT MATTERS",
-          "body": "Beyond its standalone operational reach, TCS holds a unique systemic role within Indian capital markets. With Tata Sons holding a 71.74% stake and deriving close to 80% of its dividend income from the firm, TCS functions as the key capital supplier funding the wider conglomerate's strategic industrial investments. For finance students and market observers, analyzing TCS is essential not just for assessing the IT sector, but for understanding institutional dividend flows, blue-chip capital allocation, and the health of enterprise software demand worldwide."
-        }
+      "sections":[
+        {"heading":"THE BEGINNING","body":"Tata Consultancy Services began its journey as a division of Tata Sons, created to provide management and technology consulting services to domestic sister companies. In an era when enterprise computing was still in its infancy in India, the organisation took on early electronic data processing and operational automation tasks, laying the initial groundwork for software engineering as a dedicated commercial discipline.\n\nRecognising that software and systems integration possessed vast export potential, the firm steadily turned its focus overseas. By securing technical contracts in Western markets, TCS helped pioneer the model of engineering enterprise solutions from Indian shores, navigating the technical transition from early mainframe systems to modern client-server architectures."},
+        {"heading":"THE TRANSFORMATION","body":"Over the subsequent decades, TCS transformed from an internal technical unit into an expansive multinational organisation. The company refined the Global Delivery Model, demonstrating that mission-critical technology projects could be executed across distributed global hubs without compromising delivery schedules or engineering quality.\n\nThis delivery scale transformed TCS into the premier revenue and cash generator for the entire Tata Group. Operating across 150 locations in 46 countries, the company became deeply embedded in the operations of major global enterprises, cementing its status as an indispensable partner for multinational corporate IT departments."},
+        {"heading":"HOW THE BUSINESS WORKS","body":"TCS operates primarily through information technology services, business consulting, and enterprise outsourcing. Its portfolio encompasses custom application development, cloud migration, enterprise resource planning, infrastructure support, and cognitive business operations. Rather than relying on singular off-the-shelf software sales, the business runs predominantly on multi-year service contracts and digital transformation programs.\n\nThe commercial model thrives on long-term client relationships and master service agreements. By embedding engineering teams into client workflows across sectors such as banking, financial services, healthcare, and retail, TCS generates durable recurring revenue, capturing follow-on contracts as enterprises upgrade legacy systems to modern digital architectures."},
+        {"heading":"WHAT MOVES THE STOCK","body":"From an equity valuation perspective, TCS is governed heavily by corporate discretionary IT expenditure across North America and Europe. When global macroeconomic conditions soften, enterprise clients often delay non-essential digital initiatives or renegotiate contract pricing, which directly influences billing rates, deal pipeline conversions, and top-line expansion.\n\nOperational metrics—such as employee utilisation rates, staff retention, and margin management amidst wage cycles—play a central role in market sentiment. Currency dynamics also remain a permanent factor, as revenue earned in foreign currencies converts into domestic operating costs. With the share price trading around 2304 INR and experiencing an approximate 1-year contraction of 25.57%, the market reflects cautious enterprise spending cycles and broader tech-sector moderation, balanced against the company's defensive cash-generating capabilities."},
+        {"heading":"WHY IT MATTERS","body":"Beyond its standalone operational reach, TCS holds a unique systemic role within Indian capital markets. With Tata Sons holding a 71.74% stake and deriving close to 80% of its dividend income from the firm, TCS functions as the key capital supplier funding the wider conglomerate's strategic industrial investments. For finance students and market observers, analyzing TCS is essential not just for assessing the IT sector, but for understanding institutional dividend flows, blue-chip capital allocation, and the health of enterprise software demand worldwide."}
       ],
-      "sources": [
-        {
-          "label": "Official company site",
-          "url": "https://www.tcs.com/"
-        },
-        {
-          "label": "Wikipedia company history",
-          "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
-        },
-        {
-          "label": "NSE India",
-          "url": "https://www.nseindia.com/get-quotes/equity?symbol=TCS"
-        }
-      ]
+      "sources":[{"label":"Official company site","url":"https://www.tcs.com/"},{"label":"Wikipedia company history","url":"https://en.wikipedia.org/wiki/Tata_Consultancy_Services"},{"label":"NSE India","url":"https://www.nseindia.com/get-quotes/equity?symbol=TCS"}]
     },
     {
-      "slug": "reliance-industries",
-      "company": "Reliance Industries",
-      "symbol": "RELIANCE.NS",
-      "edition": "DAILY DOSSIER 01",
-      "date": "2026-09-05",
-      "deck": "From a textile trading business to one of India's most diversified corporate groups — the Reliance story is a study in scale, capital allocation and strategic reinvention.",
-      "price": 1322,
-      "priceDate": "04 Sep 2026",
-      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg",
-      "keyFacts": [
-        {
-          "label": "FOUNDED",
-          "value": "1966"
-        },
-        {
-          "label": "FOUNDER",
-          "value": "Dhirubhai Ambani"
-        },
-        {
-          "label": "HQ",
-          "value": "Mumbai, India"
-        },
-        {
-          "label": "CORE AREAS",
-          "value": "Energy · Retail · Digital · New Energy"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "THE BEGINNING",
-          "body": "Reliance began in the 1960s as a small trading operation associated with textiles and synthetic yarn. Dhirubhai Ambani built the business around aggressive scale, access to capital and a willingness to integrate more stages of the value chain.\n\nThe company expanded from textiles into petrochemicals and refining, eventually building an unusually integrated energy and materials business."
-        },
-        {
-          "heading": "THE TRANSFORMATION",
-          "body": "After Dhirubhai Ambani's death, Reliance's businesses were reorganised between the Ambani brothers. Under Mukesh Ambani, Reliance Industries moved beyond its traditional energy base and invested heavily in telecommunications, digital services and organised retail.\n\nJio launched commercially in 2016 and changed India's telecom economics by pushing data usage and prices into a new era. Reliance Retail simultaneously built a large consumer distribution platform."
-        },
-        {
-          "heading": "HOW THE BUSINESS WORKS",
-          "body": "Reliance is not a single-industry company. Its economic engine spans oil-to-chemicals, fuel and refining, digital connectivity through Jio, retail, media and newer investments in renewable and new-energy infrastructure.\n\nThat diversification matters for investors because different businesses have different growth rates, capital needs and valuation frameworks."
-        },
-        {
-          "heading": "THE STOCK",
-          "body": "Reliance Industries is listed in India under the symbol RELIANCE. Its share price moves with a mixture of refining and petrochemical cycles, domestic consumption, Jio growth, retail performance, capital expenditure and expectations around new businesses.\n\nThe chart below is designed as a live market companion rather than a static number."
-        }
-      ],
-      "images": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg",
-          "alt": "Reliance Industries logo",
-          "caption": "Reliance Industries"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Reliance Industries",
-          "url": "https://www.ril.com/"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Reliance_Industries"
-        },
-        {
-          "label": "NSE India",
-          "url": "https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE"
-        }
-      ]
+      "slug":"reliance-industries","company":"Reliance Industries","symbol":"RELIANCE.NS","edition":"DAILY DOSSIER 01","date":"2026-09-05",
+      "deck":"From a textile trading business to one of India's most diversified corporate groups — the Reliance story is a study in scale, capital allocation and strategic reinvention.","price":1322,"priceDate":"04 Sep 2026",
+      "heroImage":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg",
+      "keyFacts":[{"label":"FOUNDED","value":"1966"},{"label":"FOUNDER","value":"Dhirubhai Ambani"},{"label":"HQ","value":"Mumbai, India"},{"label":"CORE AREAS","value":"Energy · Retail · Digital · New Energy"}],
+      "sections":[{"heading":"THE BEGINNING","body":"Reliance began in the 1960s as a small trading operation associated with textiles and synthetic yarn. Dhirubhai Ambani built the business around aggressive scale, access to capital and a willingness to integrate more stages of the value chain.\n\nThe company expanded from textiles into petrochemicals and refining, eventually building an unusually integrated energy and materials business."},{"heading":"THE TRANSFORMATION","body":"After Dhirubhai Ambani's death, Reliance's businesses were reorganised between the Ambani brothers. Under Mukesh Ambani, Reliance Industries moved beyond its traditional energy base and invested heavily in telecommunications, digital services and organised retail.\n\nJio launched commercially in 2016 and changed India's telecom economics by pushing data usage and prices into a new era. Reliance Retail simultaneously built a large consumer distribution platform."},{"heading":"HOW THE BUSINESS WORKS","body":"Reliance is not a single-industry company. Its economic engine spans oil-to-chemicals, fuel and refining, digital connectivity through Jio, retail, media and newer investments in renewable and new-energy infrastructure.\n\nThat diversification matters for investors because different businesses have different growth rates, capital needs and valuation frameworks."},{"heading":"THE STOCK","body":"Reliance Industries is listed in India under the symbol RELIANCE. Its share price moves with a mixture of refining and petrochemical cycles, domestic consumption, Jio growth, retail performance, capital expenditure and expectations around new businesses.\n\nThe chart below is designed as a live market companion rather than a static number."}],
+      "images":[{"url":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg","alt":"Reliance Industries logo","caption":"Reliance Industries"}],
+      "sources":[{"label":"Reliance Industries","url":"https://www.ril.com/"},{"label":"Wikipedia","url":"https://en.wikipedia.org/wiki/Reliance_Industries"},{"label":"NSE India","url":"https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE"}]
     }
   ]
 }
