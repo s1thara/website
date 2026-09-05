@@ -1,0 +1,30 @@
+name: Daily Indian Company Blog
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+      timezone: 'Asia/Kolkata'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate today's company dossier
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate-blog.mjs
+
+      - name: Commit and push today's edition
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/blogs.json
+          git diff --cached --quiet || git commit -m "Publish daily company dossier"
+          git push
