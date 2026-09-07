@@ -1,38 +1,241 @@
 {
   "companies": [
-    {"name":"Reliance Industries","symbol":"RELIANCE.NS"},
-    {"name":"Tata Consultancy Services","symbol":"TCS.NS"},
-    {"name":"HDFC Bank","symbol":"HDFCBANK.NS"},
-    {"name":"Bharti Airtel","symbol":"BHARTIARTL.NS"},
-    {"name":"ICICI Bank","symbol":"ICICIBANK.NS"}
+    {
+      "name": "Reliance Industries",
+      "symbol": "RELIANCE.NS"
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "symbol": "TCS.NS"
+    },
+    {
+      "name": "HDFC Bank",
+      "symbol": "HDFCBANK.NS"
+    },
+    {
+      "name": "Bharti Airtel",
+      "symbol": "BHARTIARTL.NS"
+    },
+    {
+      "name": "ICICI Bank",
+      "symbol": "ICICIBANK.NS"
+    }
   ],
   "articles": [
     {
-      "slug":"tata-consultancy-services","company":"Tata Consultancy Services","symbol":"TCS.NS","edition":"DAILY DOSSIER 02","date":"2026-09-05",
-      "deck":"As the crown jewel of the Tata Group, Tata Consultancy Services represents the bedrock of India's global IT services export engine. With operations spanning dozens of countries, the enterprise serves as both a bellwether for corporate technology spending and the chief financial engine of its parent conglomerate.",
-      "price":2304,"priceDate":"2026-09-05","oneYearChange":-25.574182371007165,
-      "heroImage":"https://commons.wikimedia.org/wiki/Special:Redirect/file/TATA%20Consultancy%20Services%20Logo%20blue.svg","heroImageType":"logo",
-      "images":[{"url":"https://commons.wikimedia.org/wiki/Special:Redirect/file/TATA%20Consultancy%20Services%20Logo%20blue.svg","alt":"Tata Consultancy Services logo","caption":"Tata Consultancy Services"}],
-      "keyFacts":[
-        {"label":"FOUNDED","value":"1968"},{"label":"FOUNDER","value":"Tata Sons (Tata Group)"},{"label":"HQ","value":"Mumbai, India"},{"label":"CORE AREAS","value":"IT Services, Consulting & Digital Solutions"}
+      "slug": "hdfc-bank",
+      "company": "HDFC Bank",
+      "symbol": "HDFCBANK.NS",
+      "edition": "DAILY DOSSIER 03",
+      "date": "2026-09-07",
+      "deck": "Established in the dawn of India's economic liberalization, HDFC Bank has expanded from an ambitious private challenger into the country's most valuable financial institution and a top-ten global lender. For finance students, it represents the definitive benchmark of risk-managed credit creation and scale in emerging market banking.",
+      "price": 708.9500122070312,
+      "priceDate": "2026-09-07",
+      "oneYearChange": -26.609729585193453,
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/EXCON_2025%2C_Bangalore_International_Exhibition_Centre_%28396%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/EXCON_2025%2C_Bangalore_International_Exhibition_Centre_%28396%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "alt": "HDFC Bank",
+          "caption": "HDFC Bank"
+        }
       ],
-      "sections":[
-        {"heading":"THE BEGINNING","body":"Tata Consultancy Services began its journey as a division of Tata Sons, created to provide management and technology consulting services to domestic sister companies. In an era when enterprise computing was still in its infancy in India, the organisation took on early electronic data processing and operational automation tasks, laying the initial groundwork for software engineering as a dedicated commercial discipline.\n\nRecognising that software and systems integration possessed vast export potential, the firm steadily turned its focus overseas. By securing technical contracts in Western markets, TCS helped pioneer the model of engineering enterprise solutions from Indian shores, navigating the technical transition from early mainframe systems to modern client-server architectures."},
-        {"heading":"THE TRANSFORMATION","body":"Over the subsequent decades, TCS transformed from an internal technical unit into an expansive multinational organisation. The company refined the Global Delivery Model, demonstrating that mission-critical technology projects could be executed across distributed global hubs without compromising delivery schedules or engineering quality.\n\nThis delivery scale transformed TCS into the premier revenue and cash generator for the entire Tata Group. Operating across 150 locations in 46 countries, the company became deeply embedded in the operations of major global enterprises, cementing its status as an indispensable partner for multinational corporate IT departments."},
-        {"heading":"HOW THE BUSINESS WORKS","body":"TCS operates primarily through information technology services, business consulting, and enterprise outsourcing. Its portfolio encompasses custom application development, cloud migration, enterprise resource planning, infrastructure support, and cognitive business operations. Rather than relying on singular off-the-shelf software sales, the business runs predominantly on multi-year service contracts and digital transformation programs.\n\nThe commercial model thrives on long-term client relationships and master service agreements. By embedding engineering teams into client workflows across sectors such as banking, financial services, healthcare, and retail, TCS generates durable recurring revenue, capturing follow-on contracts as enterprises upgrade legacy systems to modern digital architectures."},
-        {"heading":"WHAT MOVES THE STOCK","body":"From an equity valuation perspective, TCS is governed heavily by corporate discretionary IT expenditure across North America and Europe. When global macroeconomic conditions soften, enterprise clients often delay non-essential digital initiatives or renegotiate contract pricing, which directly influences billing rates, deal pipeline conversions, and top-line expansion.\n\nOperational metrics—such as employee utilisation rates, staff retention, and margin management amidst wage cycles—play a central role in market sentiment. Currency dynamics also remain a permanent factor, as revenue earned in foreign currencies converts into domestic operating costs. With the share price trading around 2304 INR and experiencing an approximate 1-year contraction of 25.57%, the market reflects cautious enterprise spending cycles and broader tech-sector moderation, balanced against the company's defensive cash-generating capabilities."},
-        {"heading":"WHY IT MATTERS","body":"Beyond its standalone operational reach, TCS holds a unique systemic role within Indian capital markets. With Tata Sons holding a 71.74% stake and deriving close to 80% of its dividend income from the firm, TCS functions as the key capital supplier funding the wider conglomerate's strategic industrial investments. For finance students and market observers, analyzing TCS is essential not just for assessing the IT sector, but for understanding institutional dividend flows, blue-chip capital allocation, and the health of enterprise software demand worldwide."}
+      "keyFacts": [
+        {
+          "label": "FOUNDED",
+          "value": "August 1994 (Commenced January 1995)"
+        },
+        {
+          "label": "FOUNDER",
+          "value": "Housing Development Finance Corporation (HDFC)"
+        },
+        {
+          "label": "HQ",
+          "value": "Mumbai, Maharashtra, India"
+        },
+        {
+          "label": "CORE AREAS",
+          "value": "Retail Banking, Wholesale Banking, Treasury & Digital Financial Services"
+        }
       ],
-      "sources":[{"label":"Official company site","url":"https://www.tcs.com/"},{"label":"Wikipedia company history","url":"https://en.wikipedia.org/wiki/Tata_Consultancy_Services"},{"label":"NSE India","url":"https://www.nseindia.com/get-quotes/equity?symbol=TCS"}]
+      "sections": [
+        {
+          "heading": "THE BEGINNING",
+          "body": "In August 1994, against the backdrop of landmark financial sector reforms initiated by the Indian government, HDFC Bank was incorporated in Mumbai. After securing its commercial banking license from the Reserve Bank of India, the institution officially launched operations in January 1995. At a time when state-run lenders dominated India's financial landscape with legacy infrastructure and paper-heavy bureaucracy, the new private entrant sought to pioneer modern, technology-enabled commercial banking.\n\nFrom its earliest days, the bank targeted an unserved sweet spot: offering blue-chip corporate clients advanced clearing, cash management, and transaction banking services, while gradually extending modern branches to retail customers. By prioritizing stringent underwriting standards and technological automation from day one, HDFC Bank constructed a resilient foundation that insulated it from the systemic credit shocks common in early emerging market cycles."
+        },
+        {
+          "heading": "THE TRANSFORMATION",
+          "body": "Over the ensuing decades, HDFC Bank orchestrated an unprecedented scaling journey. It transitioned from a metro-centric corporate lender into India's largest private sector bank by both assets and market capitalisation. The institution steadily expanded its branch network beyond tier-one hubs into semi-urban and rural heartlands, capturing immense retail savings and establishing dominant franchises in vehicle finance, personal credit, credit cards, and working capital loans for small-to-medium enterprises.\n\nThis disciplined, decade-after-decade compounding culminated on the international stage: by 2025, HDFC Bank crossed into the elite tier of the world's top ten largest banks by market capitalisation. Moving through 2026, it retains the undisputed mantle as the first among India's ten most valuable banking institutions, serving as the central nervous system for retail credit and wholesale capital deployment across the Indian economy."
+        },
+        {
+          "heading": "HOW THE BUSINESS WORKS",
+          "body": "At its operational core, HDFC Bank functions as a classic, high-efficiency intermediary of capital. It mobilizes low-cost liabilities through Current and Savings Account (CASA) deposits and time deposits from retail and institutional clients, deploying those funds into diversified lending books spanning retail consumers, agricultural borrowers, mid-market businesses, and large corporate infrastructure projects.\n\nBeyond net interest income generated from the spread between lending yields and borrowing costs, the bank operates a massive fee-generating engine. This includes transactional banking fees, credit card processing, merchant acquiring solutions, foreign exchange execution, and the third-party distribution of life insurance, mutual funds, and wealth management advisory services. Its competitive moat rests on nationwide brand recognition, low funding costs, and deep operational integration with India's payment networks."
+        },
+        {
+          "heading": "WHAT MOVES THE STOCK",
+          "body": "Equity performance for HDFC Bank is fundamentally steered by three core banking variables: loan growth velocity, net interest margin (NIM) sustainability, and credit quality. Investors scrutinize the bank's ability to maintain high CASA deposit ratios to protect funding costs during interest rate shifts, alongside quarterly tracking of gross and net non-performing asset (NPA) ratios across unsecured retail and wholesale credit portfolios.\n\nIn the public markets, the bank's shares have recently traded around 708.95 INR, having experienced an approximate one-year pullback of around 26.6%. Market movements frequently reflect macroeconomic shifts, systemic credit cycles, deposit mobilization pressures across the Indian banking system, and investor recalibrations regarding margin expansion and institutional digestions following large-scale structural expansions."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "For students of finance and investment analysis, HDFC Bank provides a textbook study in balance-sheet discipline, franchise durability, and scale economics. Operating as India's premier private lender, its financial health serves as a direct proxy for the underlying momentum of corporate capital expenditure and consumer consumption in one of the world's fastest-growing major economies."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official company site",
+          "url": "https://www.hdfc.bank.in/"
+        },
+        {
+          "label": "Wikipedia company history",
+          "url": "https://en.wikipedia.org/wiki/HDFC_Bank"
+        },
+        {
+          "label": "NSE India",
+          "url": "https://www.nseindia.com/get-quotes/equity?symbol=HDFCBANK"
+        }
+      ]
     },
     {
-      "slug":"reliance-industries","company":"Reliance Industries","symbol":"RELIANCE.NS","edition":"DAILY DOSSIER 01","date":"2026-09-05",
-      "deck":"From a textile trading business to one of India's most diversified corporate groups — the Reliance story is a study in scale, capital allocation and strategic reinvention.","price":1322,"priceDate":"04 Sep 2026",
-      "heroImage":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg",
-      "keyFacts":[{"label":"FOUNDED","value":"1966"},{"label":"FOUNDER","value":"Dhirubhai Ambani"},{"label":"HQ","value":"Mumbai, India"},{"label":"CORE AREAS","value":"Energy · Retail · Digital · New Energy"}],
-      "sections":[{"heading":"THE BEGINNING","body":"Reliance began in the 1960s as a small trading operation associated with textiles and synthetic yarn. Dhirubhai Ambani built the business around aggressive scale, access to capital and a willingness to integrate more stages of the value chain.\n\nThe company expanded from textiles into petrochemicals and refining, eventually building an unusually integrated energy and materials business."},{"heading":"THE TRANSFORMATION","body":"After Dhirubhai Ambani's death, Reliance's businesses were reorganised between the Ambani brothers. Under Mukesh Ambani, Reliance Industries moved beyond its traditional energy base and invested heavily in telecommunications, digital services and organised retail.\n\nJio launched commercially in 2016 and changed India's telecom economics by pushing data usage and prices into a new era. Reliance Retail simultaneously built a large consumer distribution platform."},{"heading":"HOW THE BUSINESS WORKS","body":"Reliance is not a single-industry company. Its economic engine spans oil-to-chemicals, fuel and refining, digital connectivity through Jio, retail, media and newer investments in renewable and new-energy infrastructure.\n\nThat diversification matters for investors because different businesses have different growth rates, capital needs and valuation frameworks."},{"heading":"THE STOCK","body":"Reliance Industries is listed in India under the symbol RELIANCE. Its share price moves with a mixture of refining and petrochemical cycles, domestic consumption, Jio growth, retail performance, capital expenditure and expectations around new businesses.\n\nThe chart below is designed as a live market companion rather than a static number."}],
-      "images":[{"url":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg","alt":"Reliance Industries logo","caption":"Reliance Industries"}],
-      "sources":[{"label":"Reliance Industries","url":"https://www.ril.com/"},{"label":"Wikipedia","url":"https://en.wikipedia.org/wiki/Reliance_Industries"},{"label":"NSE India","url":"https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE"}]
+      "slug": "tata-consultancy-services",
+      "company": "Tata Consultancy Services",
+      "symbol": "TCS.NS",
+      "edition": "DAILY DOSSIER 02",
+      "date": "2026-09-05",
+      "deck": "As the crown jewel of the Tata Group, Tata Consultancy Services represents the bedrock of India's global IT services export engine. With operations spanning dozens of countries, the enterprise serves as both a bellwether for corporate technology spending and the chief financial engine of its parent conglomerate.",
+      "price": 2304,
+      "priceDate": "2026-09-05",
+      "oneYearChange": -25.574182371007165,
+      "heroImage": "https://commons.wikimedia.org/wiki/Special:Redirect/file/TATA%20Consultancy%20Services%20Logo%20blue.svg",
+      "heroImageType": "logo",
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/TATA%20Consultancy%20Services%20Logo%20blue.svg",
+          "alt": "Tata Consultancy Services logo",
+          "caption": "Tata Consultancy Services"
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": "FOUNDED",
+          "value": "1968"
+        },
+        {
+          "label": "FOUNDER",
+          "value": "Tata Sons (Tata Group)"
+        },
+        {
+          "label": "HQ",
+          "value": "Mumbai, India"
+        },
+        {
+          "label": "CORE AREAS",
+          "value": "IT Services, Consulting & Digital Solutions"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "THE BEGINNING",
+          "body": "Tata Consultancy Services began its journey as a division of Tata Sons, created to provide management and technology consulting services to domestic sister companies. In an era when enterprise computing was still in its infancy in India, the organisation took on early electronic data processing and operational automation tasks, laying the initial groundwork for software engineering as a dedicated commercial discipline.\n\nRecognising that software and systems integration possessed vast export potential, the firm steadily turned its focus overseas. By securing technical contracts in Western markets, TCS helped pioneer the model of engineering enterprise solutions from Indian shores, navigating the technical transition from early mainframe systems to modern client-server architectures."
+        },
+        {
+          "heading": "THE TRANSFORMATION",
+          "body": "Over the subsequent decades, TCS transformed from an internal technical unit into an expansive multinational organisation. The company refined the Global Delivery Model, demonstrating that mission-critical technology projects could be executed across distributed global hubs without compromising delivery schedules or engineering quality.\n\nThis delivery scale transformed TCS into the premier revenue and cash generator for the entire Tata Group. Operating across 150 locations in 46 countries, the company became deeply embedded in the operations of major global enterprises, cementing its status as an indispensable partner for multinational corporate IT departments."
+        },
+        {
+          "heading": "HOW THE BUSINESS WORKS",
+          "body": "TCS operates primarily through information technology services, business consulting, and enterprise outsourcing. Its portfolio encompasses custom application development, cloud migration, enterprise resource planning, infrastructure support, and cognitive business operations. Rather than relying on singular off-the-shelf software sales, the business runs predominantly on multi-year service contracts and digital transformation programs.\n\nThe commercial model thrives on long-term client relationships and master service agreements. By embedding engineering teams into client workflows across sectors such as banking, financial services, healthcare, and retail, TCS generates durable recurring revenue, capturing follow-on contracts as enterprises upgrade legacy systems to modern digital architectures."
+        },
+        {
+          "heading": "WHAT MOVES THE STOCK",
+          "body": "From an equity valuation perspective, TCS is governed heavily by corporate discretionary IT expenditure across North America and Europe. When global macroeconomic conditions soften, enterprise clients often delay non-essential digital initiatives or renegotiate contract pricing, which directly influences billing rates, deal pipeline conversions, and top-line expansion.\n\nOperational metrics—such as employee utilisation rates, staff retention, and margin management amidst wage cycles—play a central role in market sentiment. Currency dynamics also remain a permanent factor, as revenue earned in foreign currencies converts into domestic operating costs. With the share price trading around 2304 INR and experiencing an approximate 1-year contraction of 25.57%, the market reflects cautious enterprise spending cycles and broader tech-sector moderation, balanced against the company's defensive cash-generating capabilities."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "Beyond its standalone operational reach, TCS holds a unique systemic role within Indian capital markets. With Tata Sons holding a 71.74% stake and deriving close to 80% of its dividend income from the firm, TCS functions as the key capital supplier funding the wider conglomerate's strategic industrial investments. For finance students and market observers, analyzing TCS is essential not just for assessing the IT sector, but for understanding institutional dividend flows, blue-chip capital allocation, and the health of enterprise software demand worldwide."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official company site",
+          "url": "https://www.tcs.com/"
+        },
+        {
+          "label": "Wikipedia company history",
+          "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
+        },
+        {
+          "label": "NSE India",
+          "url": "https://www.nseindia.com/get-quotes/equity?symbol=TCS"
+        }
+      ]
+    },
+    {
+      "slug": "reliance-industries",
+      "company": "Reliance Industries",
+      "symbol": "RELIANCE.NS",
+      "edition": "DAILY DOSSIER 01",
+      "date": "2026-09-05",
+      "deck": "From a textile trading business to one of India's most diversified corporate groups — the Reliance story is a study in scale, capital allocation and strategic reinvention.",
+      "price": 1322,
+      "priceDate": "04 Sep 2026",
+      "heroImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg",
+      "keyFacts": [
+        {
+          "label": "FOUNDED",
+          "value": "1966"
+        },
+        {
+          "label": "FOUNDER",
+          "value": "Dhirubhai Ambani"
+        },
+        {
+          "label": "HQ",
+          "value": "Mumbai, India"
+        },
+        {
+          "label": "CORE AREAS",
+          "value": "Energy · Retail · Digital · New Energy"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "THE BEGINNING",
+          "body": "Reliance began in the 1960s as a small trading operation associated with textiles and synthetic yarn. Dhirubhai Ambani built the business around aggressive scale, access to capital and a willingness to integrate more stages of the value chain.\n\nThe company expanded from textiles into petrochemicals and refining, eventually building an unusually integrated energy and materials business."
+        },
+        {
+          "heading": "THE TRANSFORMATION",
+          "body": "After Dhirubhai Ambani's death, Reliance's businesses were reorganised between the Ambani brothers. Under Mukesh Ambani, Reliance Industries moved beyond its traditional energy base and invested heavily in telecommunications, digital services and organised retail.\n\nJio launched commercially in 2016 and changed India's telecom economics by pushing data usage and prices into a new era. Reliance Retail simultaneously built a large consumer distribution platform."
+        },
+        {
+          "heading": "HOW THE BUSINESS WORKS",
+          "body": "Reliance is not a single-industry company. Its economic engine spans oil-to-chemicals, fuel and refining, digital connectivity through Jio, retail, media and newer investments in renewable and new-energy infrastructure.\n\nThat diversification matters for investors because different businesses have different growth rates, capital needs and valuation frameworks."
+        },
+        {
+          "heading": "THE STOCK",
+          "body": "Reliance Industries is listed in India under the symbol RELIANCE. Its share price moves with a mixture of refining and petrochemical cycles, domestic consumption, Jio growth, retail performance, capital expenditure and expectations around new businesses.\n\nThe chart below is designed as a live market companion rather than a static number."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Reliance_Industries_Logo.svg",
+          "alt": "Reliance Industries logo",
+          "caption": "Reliance Industries"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Reliance Industries",
+          "url": "https://www.ril.com/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reliance_Industries"
+        },
+        {
+          "label": "NSE India",
+          "url": "https://www.nseindia.com/get-quotes/equity?symbol=RELIANCE"
+        }
+      ]
     }
   ]
 }
