@@ -23,6 +23,79 @@
   ],
   "articles": [
     {
+      "slug": "bharti-airtel",
+      "company": "Bharti Airtel",
+      "symbol": "BHARTIARTL.NS",
+      "edition": "DAILY DOSSIER 04",
+      "date": "2026-09-10",
+      "deck": "From pioneering telecom liberalization in India to building a footprint across 18 countries, Bharti Airtel has evolved into an emerging-market connectivity powerhouse. As telecom transforms from basic voice utility into essential digital infrastructure, Airtel represents a case study in surviving cutthroat price competition through operational resilience and premium network positioning.",
+      "price": 1821.0999755859375,
+      "priceDate": "2026-09-10",
+      "oneYearChange": -3.7168260505814086,
+      "heroImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Bharti_Airtel_Logo.svg/960px-Bharti_Airtel_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "images": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Bharti_Airtel_Logo.svg/960px-Bharti_Airtel_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "alt": "Bharti Airtel",
+          "caption": "Bharti Airtel"
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": "FOUNDED",
+          "value": "1995"
+        },
+        {
+          "label": "FOUNDER",
+          "value": "Sunil Bharti Mittal"
+        },
+        {
+          "label": "HQ",
+          "value": "New Delhi, India"
+        },
+        {
+          "label": "CORE AREAS",
+          "value": "Mobile Telephony (5G, 4G, LTE Advanced), Fixed-Line Broadband, Enterprise & Digital Services"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "THE BEGINNING",
+          "body": "Bharti Airtel's genesis is deeply intertwined with the dawn of India's private telecommunications era in the mid-1990s. Founded by entrepreneur Sunil Bharti Mittal, the company secured early cellular licenses as India opened its telecom sector to private competition, beginning operations under the brand name Bharti Cellular in the Delhi circle.\n\nRather than adopting the capital-heavy, vertically integrated model standard in Western telecommunications at the time, Airtel broke industry norms with a pioneering operational strategy. It outsourced its core network management and IT infrastructure to specialized global equipment vendors and technology providers, transforming fixed capital burdens into flexible, volume-linked operational expenses. This unique structure allowed Airtel to expand rapidly across regional circles without stranding enormous upfront capital, establishing a foundation that fueled its rise to market leadership."
+        },
+        {
+          "heading": "THE TRANSFORMATION",
+          "body": "Over the subsequent decades, Airtel evolved from a domestic mobile pioneer into a diversified multinational telecom operator. A major strategic leap occurred with its aggressive push into emerging markets beyond South Asia, notably through a landmark multi-country footprint acquisition in Africa, as well as operations reaching the Channel Islands. This expanded its exposure across contrasting economic environments and dynamic demographics.\n\nSimultaneously, the domestic Indian market underwent tectonic technological shifts and unprecedented price warfare. Airtel managed successive technological transitions—from early 2G voice networks to 3G, high-speed 4G LTE Advanced, and modern 5G architectures. While hyper-competition and regulatory challenges caused industry-wide consolidation and forced multiple competitors out of the market, Airtel held firm by prioritizing network quality and high-value subscriber retention."
+        },
+        {
+          "heading": "HOW THE BUSINESS WORKS",
+          "body": "At its core, Bharti Airtel operates as an integrated communications services provider spanning both retail and enterprise segments. In India, its principal revenue engine remains consumer mobile telephony, delivering data and voice connectivity powered by widespread 4G and 5G network coverage. Alongside mobile services, Airtel has scaled its fixed-line broadband footprint to address surging home-data demand, bundling high-speed fiber connectivity with entertainment and voice solutions.\n\nBeyond domestic retail consumers, Airtel operates a sizable enterprise connectivity unit delivering dedicated data links, cloud connectivity, and IoT solutions to corporate clients. Geographically, its operations across Africa provide significant diversification, serving mobile voice, data, and mobile financial ecosystems across emerging African economies where traditional banking and fixed infrastructure remain underserved."
+        },
+        {
+          "heading": "WHAT MOVES THE STOCK",
+          "body": "For equity investors, Bharti Airtel's performance is driven primarily by subscriber quality and monetization metrics, chief among them being Average Revenue Per User (ARPU). As industry pricing shifts away from predatory discounting toward tariff repair, Airtel's ability to implement tariff hikes without triggering user churn serves as a primary catalyst for margin expansion and operating leverage.\n\nCapital expenditure cycles and balance-sheet discipline also play a critical role in market sentiment. Investors closely monitor the pace of 5G infrastructure rollouts, spectrum acquisition outlays, and debt servicing requirements. Furthermore, given its international exposure, the performance of its African subsidiary—including foreign exchange volatility and regional macroeconomic conditions—regularly influences consolidated earnings and investor valuation models."
+        },
+        {
+          "heading": "WHY IT MATTERS",
+          "body": "Bharti Airtel stands as an essential case study in navigating creative destruction within infrastructure-heavy sectors. By pairing strategic operational outsourcing with an unwavering focus on premium, data-hungry user cohorts, the company transitioned from a regional challenger into an enduring telecommunications cornerstone of the Global South."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Official company site",
+          "url": "https://www.airtel.in/"
+        },
+        {
+          "label": "Wikipedia company history",
+          "url": "https://en.wikipedia.org/wiki/Bharti_Airtel"
+        },
+        {
+          "label": "NSE India",
+          "url": "https://www.nseindia.com/get-quotes/equity?symbol=BHARTIARTL"
+        }
+      ]
+    },
+    {
       "slug": "hdfc-bank",
       "company": "HDFC Bank",
       "symbol": "HDFCBANK.NS",
