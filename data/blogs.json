@@ -27,11 +27,11 @@
       "company": "Reliance Industries",
       "symbol": "RELIANCE.NS",
       "edition": "DAILY DOSSIER 01",
-      "date": "2026-10-12",
-      "deck": "From its origin as a small-scale textile trading enterprise, Reliance Industries has evolved into India's largest corporate powerhouse spanning energy, retail, and telecommunications. Today, it stands as an economic bellwether responsible for a significant share of the nation's exports and tax receipts, balancing heavy legacy cash flows with high-growth consumer technology bets.",
-      "price": 1158.9000244140625,
-      "priceDate": "2026-10-12",
-      "oneYearChange": -15.716361860795455,
+      "date": "2026-10-13",
+      "deck": "From its roots in synthetic textiles, Reliance Industries has evolved into India's most influential conglomerate spanning energy, retail, and digital services. Understanding this corporate titan is essential for any modern market observer, as its fortunes mirror the broader trajectory of the Indian consumer and industrial economy.",
+      "price": 1166.699951171875,
+      "priceDate": "2026-10-13",
+      "oneYearChange": -15.149094460227271,
       "heroImage": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0e/Reliance_Industries.svg/500px-Reliance_Industries.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "images": [
         {
@@ -43,41 +43,41 @@
       "keyFacts": [
         {
           "label": "FOUNDED",
-          "value": "1958 (originally as Reliance Commercial Corporation)"
+          "value": "1958 (incorporated in 1973)"
         },
         {
-          "label": "HEADQUARTERS",
+          "label": "FOUNDER",
+          "value": "Dhirubhai Ambani"
+        },
+        {
+          "label": "HQ",
           "value": "Mumbai, Maharashtra, India"
         },
         {
-          "label": "GLOBAL RANKING",
-          "value": "88th largest company worldwide"
-        },
-        {
           "label": "CORE AREAS",
-          "value": "Energy, Petrochemicals, Natural Gas, Retail, Telecommunications, Media, and Textiles"
+          "value": "Energy, Petrochemicals, Retail, Telecommunications, Media"
         }
       ],
       "sections": [
         {
           "heading": "THE BEGINNING",
-          "body": "Reliance Industries traces its origins to the late 1950s when it was established as a partnership trading firm dealing primarily in synthetic fabrics and spices. Through aggressive backward integration, the business transitioned from merchant trading to domestic textile manufacturing, launching consumer fabric brands that quickly established a nationwide presence.\n\nRecognising that long-term competitive advantage lay in mastering the underlying supply chain, the enterprise systematically expanded upstream. It moved from weaving fabrics into synthesizing polyester yarn, and eventually into refining raw hydrocarbons, laying the groundwork for an industrial empire anchored by scale, capital deployment, and supply chain control."
+          "body": "Reliance Industries began its corporate journey not as an energy behemoth, but as a modest trading firm that swiftly pivoted into manufacturing synthetic fabrics and textiles. Founded by Dhirubhai Ambani, the enterprise carved out an early identity by championing domestic polyester production under consumer brands like Vimal, laying the groundwork for what would become an aggressive strategy of backward vertical integration.\n\nRather than remaining reliant on third-party raw materials, the firm methodically moved upstream throughout the late twentieth century. It progressed from spinning yarn to producing purified terephthalic acid and petrochemical precursors, culminating in the bold construction of massive, world-scale refining facilities. This step-by-step mastery of the hydrocarbon supply chain established Reliance's signature execution model: building industrial assets at extraordinary scale to depress unit costs and dominate regional market share."
         },
         {
           "heading": "THE TRANSFORMATION",
-          "body": "The decisive transformation of Reliance arrived with its colossal investments in petrochemicals, natural gas extraction, and refining capacity. By building globally integrated refining complexes, the group converted volatile raw crude into specialized polymers, chemicals, and fuels, eventually emerging as India's premier exporter and commanding roughly seven percent of the country's total merchandise export volume.\n\nRather than remaining confined to traditional heavy industry, the conglomerate orchestrated a dramatic pivot toward modern consumer sectors. The launch and expansion of its telecommunications network and retail footprint diversified its business model, transitioning Reliance from a purely cyclical commodities business into an indispensable consumer and digital ecosystem."
+          "body": "While hydrocarbons and petrochemicals provided the initial foundation of massive cash flows, the company embarked on a decisive transformation in the 21st century to tap directly into India's burgeoning consumer economy. The leadership recognised that sustained long-term expansion required direct access to household consumption rather than relying purely on cyclical industrial commodities.\n\nThis strategic pivot manifested through two colossal pillars: an expansive nationwide retail footprint and a disruptive entry into telecommunications and digital infrastructure. By building ubiquitous modern store networks and blanketing the nation with high-speed digital connectivity, Reliance morphed from an old-economy manufacturing powerhouse into an integrated consumer-tech ecosystem, fundamentally altering how hundreds of millions of Indians shop, communicate, and consume digital media."
         },
         {
           "heading": "HOW THE BUSINESS WORKS",
-          "body": "Reliance operates an integrated conglomerate model that bridges capital-intensive industrial assets with consumer-facing operating engines. At its core, the energy, petrochemicals, and natural gas segments process raw inputs to generate massive operating cash flows, supplying essential feedstock and energy products across domestic and international markets.\n\nSimultaneously, its telecommunications, mass media, entertainment, and retail arms function as high-reach platforms that monetize consumer engagement and domestic consumption. The retail footprint spans widespread physical and digital storefronts, while the telecom network underpins national data connectivity, creating a self-reinforcing network effect that diversifies revenue streams away from crude market volatility."
+          "body": "Today, Reliance operates through an interconnected portfolio of distinct yet complementary operating segments. On one flank stands the legacy Oil-to-Chemicals (O2C) division, which encompasses refining, petrochemical synthesis, and natural gas exploration. This segment acts as a heavy industrial engine, processing crude feedstocks into fuels and essential polymers that supply international export markets as well as domestic industrial users.\n\nOn the other flank are the modern consumer-facing engines: retail and digital telecommunications. The retail segment functions through physical supermarket formats, digital commerce, consumer electronics, and fashion storefronts, capturing daily household expenditure. Meanwhile, the digital arm provides telecom infrastructure, digital services, and entertainment, generating recurring subscription cash flows. Together, these divisions create an internal counterbalance, pairing steady, recurring domestic retail inflows against the larger, cyclical cash flows of global energy processing."
         },
         {
           "heading": "WHAT MOVES THE STOCK",
-          "body": "For equity investors, Reliance's valuation is driven by a dual dynamic: commodity cycle sensitivity and consumer platform expansion. The energy and petrochemical segments are sensitive to global refining margins, petrochemical demand-supply balances, and fluctuating benchmark crude spreads, which determine baseline corporate cash generation.\n\nConversely, enterprise value upside is increasingly dictated by operational metrics across retail and digital services, including subscriber growth, average revenue per user, network monetization, and commercial footprint expansion. Shifts in domestic regulatory frameworks, capital expenditure cycles in telecom and energy, and broader macroeconomic conditions in India heavily influence institutional sentiment."
+          "body": "For equity analysts and institutional investors, assessing the company's valuation requires balancing traditional industrial metrics with consumer platform economics. Movement in the underlying shares is often driven by refining margins, petrochemical demand-supply cycles, and global benchmark spreads, which dictate earnings volatility across the core energy operations.\n\nConcurrently, market sentiment is increasingly guided by consumer performance indicators, such as subscriber growth, average revenue per user in telecom, and comparable store sales expansion in retail. Strategic capital allocation decisions, including capital expenditure cycles for next-generation initiatives, debt management, and corporate reorganisations or platform monetisation milestones, serve as primary catalysts that sway institutional investor interest over rolling multi-year periods."
         },
         {
           "heading": "WHY IT MATTERS",
-          "body": "Reliance Industries serves as a primary proxy for the broader Indian economy, functioning as its largest taxpayer, leading exporter, and premier market capitalisation heavyweight. Understanding its corporate structure offers finance students a masterclass in how legacy cash-flow engines can be redeployed to build modern, capital-defensible digital and consumer franchises in emerging markets."
+          "body": "Reliance Industries holds an unparalleled position within Indian capital markets, serving as an anchor weight across domestic headline indices and acting as a cornerstone holding for global portfolio managers targeting Indian exposure. Its sheer operational footprint—spanning international energy export pipelines to domestic corner-store retail counters—makes the company an indispensable proxy for both India's macroeconomic vitality and its ongoing digital modernization."
         }
       ],
       "sources": [
