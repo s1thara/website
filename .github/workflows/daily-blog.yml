@@ -1,9 +1,6 @@
 name: Daily Indian Company Blog
 
 on:
-  schedule:
-    - cron: '0 10 * * *'
-      timezone: 'Asia/Kolkata'
   workflow_dispatch:
 
 permissions:
